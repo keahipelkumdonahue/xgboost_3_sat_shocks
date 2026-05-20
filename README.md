@@ -1,5 +1,7 @@
 ## Pelkum Donahue & Inceoglu (2026): Calculating 3D Interplanetary Shock Velocity and Normals via Triple-Spacecraft XGBoost Optimization
 
+(paper doi to be added at publication)
+
 Authors: K. Pelkum Donahue (writing), F. Inceoglu (editing and review)
 
 ----
