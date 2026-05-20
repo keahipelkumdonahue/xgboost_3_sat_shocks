@@ -1,8 +1,14 @@
-Pelkum Donahue & Inceoglu (2026): Calculating 3D Interplanetary Shock Velocity and Normals via Triple-Spacecraft XGBoost Optimization
+## Pelkum Donahue & Inceoglu (2026): Calculating 3D Interplanetary Shock Velocity and Normals via Triple-Spacecraft XGBoost Optimization
 
 Authors: K. Pelkum Donahue (writing), F. Inceoglu (editing and review)
 
-----------------------------------------------------------------------
+----
+
+**Python files displayed in boldface**
+
+_Data files displayed in italics_
+
+----
 
 **helper:** General methods used in project:
 - LP_filter_data for lowpass signal filtering (used for automated shock selection)
