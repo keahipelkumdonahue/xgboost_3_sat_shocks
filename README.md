@@ -16,15 +16,15 @@ _Data files displayed in italics_
 
 **dsc_urls:** List of all wget urls for DSCOVR data
 
-**1a_load_aw_data:** Retrieves and stores ACE and Wind data from NASA CDAWeb
+**1a_load_aw_data:** Retrieves and stores ACE and Wind data from NASA CDAWeb (references in main text)
 
-**1b_load_dsc_data:** Retreives and stores DSCOVR data from NOAA portal
+**1b_load_dsc_data:** Retreives and stores DSCOVR data from NOAA portal (reference in main text)
 
-**1c_load_cme_sir_data:** Retrieves and stores CME and SIR event lists from CCMC and UCLA, repsectively
+**1c_load_cme_sir_data:** Retrieves and stores CME and SIR event lists from CCMC and UCLA, repsectively (references in main text)
 
 **2_prep_data:** Unifies, sychronizes, and saves ACE, Wind, and DSCOVR data cadences
 
-**3a_generate_training_dists:** Fits Gaussian distributions to shock velocity components from the Helsinki shock database for model training
+**3a_generate_training_dists:** Fits Gaussian distributions to shock velocity components from the Helsinki shock database for model training (reference in main text)
 
 **3b_generate_training_data:** Generates orbital artifact correction training data by sending synthetic plane waves from Helsinki distributions through real 3-sat orbital geometries
 
