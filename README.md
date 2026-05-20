@@ -39,17 +39,17 @@ _Data files displayed in italics_
 
 **6_transform_data:** Sends calculated velocity vectors with orbital parameters through XGBoost model from 4_train_xgb to remove orbital artifact
 - _corrected_l1_cases.pkl_ is list of all L1 shocks, containing both the raw and XGBoost-corrected velocity vectors
-- 'start': shock start time (datetime)
-- 'tot_window': duration of shock analysis window (min)
-- 'direction': FF vs FR (string)
-- 'sat_*': order of satellites to detect shock (string)
-- 't_a': number of minutes after window start of first detection (int)
-- 'lag_ab': time lag between 1st and 2nd detections (int)
-- 'lag_ac': time lag between 1st and 3rd detections (int)
-- 'pos_*': cartesian GSE positions of each satellite (Re)
-- 'orb_norm_*': cartesian GSE components of normal vector to plane containing all three satellites (unitless)
-- 'v_calc_*': cartesian GSE components of least-squares shock velocity vector (km/s)
-- 'v_corrected': cartesian GSE vector of XGBoost-corrected shock velocity vector (km/s)
+  - 'start': shock start time (datetime)
+  - 'tot_window': duration of shock analysis window (min)
+  - 'direction': FF vs FR (string)
+  - 'sat_*': order of satellites to detect shock (string)
+  - 't_a': number of minutes after window start of first detection (int)
+  - 'lag_ab': time lag between 1st and 2nd detections (int)
+  - 'lag_ac': time lag between 1st and 3rd detections (int)
+  - 'pos_*': cartesian GSE positions of each satellite (Re)
+  - 'orb_norm_*': cartesian GSE components of normal vector to plane containing all three satellites (unitless)
+  - 'v_calc_*': cartesian GSE components of least-squares shock velocity vector (km/s)
+  - 'v_corrected': cartesian GSE vector of XGBoost-corrected shock velocity vector (km/s)
 
 **7_visualize_transform:** Visualizes xgboost model effect on 3-sat L1 shocks through hemisphere-separated heatmaps, speed histograms, 2d plane projections, and a 3D normal vector plot
 
