@@ -23,14 +23,17 @@ Authors: K. Pelkum Donahue (writing), F. Inceoglu (editing and review)
 **3b_generate_training_data:** Generates orbital artifact correction training data by sending synthetic plane waves from Helsinki distributions through real 3-sat orbital geometries
 
 **4_train_xgb:** Trains XGBoost model on synthetic earthward and sunward shocks, separately, evaluating on test set, and saving models
+- _earthward_xgb_model.pkl_ and _sunward_xgb_model.pkl_: saved XGBoost models
 
 **4a_xgb_viz:** Visualizes test set performance via hemisphere-separated heatmaps, speed histogram, and plane projections of velocity vectors
 
 **5a_step_finder:** Iterates over all 7 years of data, applying automated logistic regression to identify shock fronts passing all three satellites, and saving list
 
 **5b_prop_calc:** Performs plane wave least-squares fit for all identified shock windows to calculate shock velocity vectors
+- _earthward_props.pkl_ and _sunward_props.pkl_ are lists of all identified shocks with propagation parameters
 
 **6_transform_data:** Sends calculated velocity vectors with orbital parameters through XGBoost model from 4_train_xgb to remove orbital artifact
+- _corrected_l1_cases.pkl_ is list of all L1 shocks, containing both the raw and XGBoost-corrected velocity vector
 
 **7_visualize_transform:** Visualizes xgboost model effect on 3-sat L1 shocks through hemisphere-separated heatmaps, speed histograms, 2d plane projections, and a 3D normal vector plot
 
