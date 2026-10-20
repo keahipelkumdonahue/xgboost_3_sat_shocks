@@ -2,7 +2,7 @@
 
 Zenodo Release: https://doi.org/10.5281/zenodo.20315800
 
-Paper: doi.org/10.3847/1538-4357/ae710c
+Paper: https://doi.org/10.3847/1538-4357/ae710c
 
 Authors: K. Pelkum Donahue (writing), F. Inceoglu (editing and review)
 
